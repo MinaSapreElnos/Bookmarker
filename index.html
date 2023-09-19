@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+  <div class="container bg-body-secondary p-5">
+    <div class="mt-5">
+      <h1>Bookmarker</h1>
+    </div>
+    <!-- form -->
+<div class="w-75 m-auto text-center mt-4">
+<p class="fs-3">Bookmark your favorite sites</p>
+<label class="fs-3">Site Name</label>
+<br>
+<input class="form-control m-3" type="text" id="name-site">
+<label class="fs-3">Site URL</label>
+<br>
+<input class="form-control m-3" type="text" id="url-site">
+<button class="btn btn-info text-white fs-5" onclick="addLinkes()"> sibmit </button>
+</div>
+
+<!-- teble -->
+ <div class="mt-5">
+<table class="w-50">
+  <thead>
+    <tr>
+      <th>site</th>
+    <th>visit</th>
+    <th>delete</th>
+    </tr>
+  </thead>
+ 
+  <tbody id="t-body" >
+    
+
+  </tbody>
+</table>
+</div>
+  </div> 
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>    
+</body>
+</html>
